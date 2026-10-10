@@ -1,0 +1,26 @@
+# Python and Jupyter temporary files
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# Environment and local configuration
+.env
+.env.*
+!.env.example
+.venv/
+venv/
+
+# Temporary Excel lock files
+~$*.xlsx
+~$*.xls
+
+# Operating system files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor settings
+.vscode/
+
+# Exclude unpublished draft documentation
+/07_Documentation/README_DRAFT.md
